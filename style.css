@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    min-width: 1263px;
+    height: 100%;
+}
+/*头部制作*/
+header{
+    min-width: 1260px;
+    width: 100%;
+    height: 10%;
+    overflow: hidden;
+    background-color: #333;
+}
+nav{
+    position: relative;
+    width: 1263px;
+    margin: 0 auto;
+    height: 50px;
+}
+nav > ul{
+    text-align: center;
+}
+nav > ul > li{
+    float: right;
+}
+ul > li > a{
+    padding: 10px;
+    color: #eee;
+    font-size: 25px;
+    display: block;
+    line-height: -2px;
+}
+/*About me区域的设置*/
+#about_me{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);   
+}
+#about_me > h1{
+    padding-top: 20px;
+    color: #eee;
+    font-size: 45px;
+}
+#about_me > p{
+    color: #be3144;
+    font-size: 25px;
+    padding: 0 20px;
+}
+/*主内容*/
+#work{
+   width: 100%;
+   height: 500px;
+   margin: 0 auto;
+   text-align: center;
+   background: #45567d;
+   position: relative;
+   overflow: hidden;
+}
+#work > h2{
+    font-size: 35px;
+    margin-top: 10px;
+}
+#work > p{
+    font-size: 20px;
+}
+#work > figure{
+    position: relative;
+    display: inline-block;
+    width: 285px;
+    height: 219px;
+    border: 1px solid #eee;
+    box-shadow: 1px 1px 3px #eee;
+    margin: 30px 20px 0px 0px;
+}
+#work > figure > img{
+    width: 285px;
+    height: 219px;
+}
+#work > figure > figcaption > a{
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+#contact{
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #303841;
+    overflow: hidden;
+}
+.picture{
+    position: relative;
+    left: 45%;
+    top: 25%;
+    margin-right: 30px;
+}
+#contact > h2{
+    text-align: center;
+    color: #eee;
+    font-size: 55px;
+}
